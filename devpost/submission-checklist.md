@@ -14,7 +14,7 @@
 - [x] `devpost/` folder included
 - [x] README and run instructions included
 - [x] Generated/cache/local files excluded
-- [ ] Confirm public repository URL: `https://github.com/salihyalcin/specs-street-property`
+- [x] Public repository confirmed: <https://github.com/salihyalcin/specs-street-property>
 
 ## Demo video
 
