@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/9bbf7927-772d-441f-be51-37a6cbb06914>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6fe548c9-4539-4294-bd75-6b97b3958794
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6fe548c9-4539-4294-bd75-6b97b3958794
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e180fbd9-34a6-4253-a348-573378753108
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e180fbd9-34a6-4253-a348-573378753108>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 66a647db-f85f-40e9-8f08-0daccb760df1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buildingFacade: false
+    cameraObject: false
+    debugColliders: false
+    maximumVisibleDistanceCm: false
+    overlayUI: false
+    visibilityHalfAngleDeg: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - overlayUI: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      buildingFacade: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visibilityHalfAngleDeg: !<float> 55.000000
+      maximumVisibleDistanceCm: !<float> 1400.000000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">StreetPropertyMain – building overlay controller</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 overlayUI {"hint":"StreetPropertyOverlayUI component authored on the overlay root"}'
+    - '// @input SceneObject buildingFacade {"hint":"Solid façade stand-in used as the visibility target"}'
+    - '// @input SceneObject cameraObject {"hint":"World-tracked camera object used for view-cone checks"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float visibilityHalfAngleDeg = 55 {"hint":"Half-angle of the view cone in degrees", "widget":"slider", "min":25, "max":80, "step":1}'
+    - '// @input float maximumVisibleDistanceCm = 1400 {"hint":"Maximum camera-to-building-center distance before the overlay hides", "widget":"slider", "min":900, "max":2000, "step":25}'
+    - '// @input bool debugColliders {"hint":"Draw all physics colliders for interaction debugging"}'
+    - '// @ui {"widget":"group_end"}'

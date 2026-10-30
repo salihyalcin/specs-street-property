@@ -1,0 +1,35 @@
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
+
+# Generated Lens Studio state
+Cache/
+Support/
+Workspaces/
+PluginsUserPreferences/
+*.esproj.*.lock
+.virtual-scene.json
+
+# Local agent/editor configuration
+.mcp.json
+.claude/
+.codex/
+.cursor/
+.vscode/
+AGENTS.md
+CLAUDE.md
+
+# Local generation scratch space
+.icon_tmp/
+tempAssetGen/
+.tmp-*
+
+# macOS
+.DS_Store
